@@ -1,0 +1,109 @@
+node-cssom (0.4.4-3) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Bump debhelper from old 12 to 13.
+  * Update standards version to 4.5.1, no changes needed.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Wed, 15 Sep 2021 09:51:06 +0100
+
+node-cssom (0.4.4-2) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * debian/copyright: use spaces rather than tabs to start continuation lines.
+  * Apply multi-arch hints.
+    + libjs-cssom, node-cssom: Add Multi-Arch: foreign.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Sun, 29 Aug 2021 00:15:48 +0100
+
+node-cssom (0.4.4-1) unstable; urgency=medium
+
+  * Team upload
+  * Bump debhelper compatibility level to 12
+  * Declare compliance with policy 4.5.0
+  * Add "Rules-Requires-Root: no"
+  * Change section to javascript
+  * Change priority to optional
+  * Add debian/gbp.conf
+  * Add upstream/metadata
+  * Use pkg-js-tools auto install
+  * Update copyright
+  * Update VCS fields to salsa
+  * Use npm registry
+  * New upstream version 0.4.4
+  * Update build
+  * Install readme
+
+ -- Xavier Guimard <yadd@debian.org>  Mon, 25 May 2020 13:24:51 +0200
+
+node-cssom (0.3.1-1) unstable; urgency=medium
+
+  * Team upload
+  * Bump debhelper compatibility level to 12
+  * Declare compliance with policy 4.5.0
+  * Add "Rules-Requires-Root: no"
+  * Change section to javascript
+  * Change priority to optional
+  * Add debian/gbp.conf
+  * Add upstream/metadata
+  * Use pkg-js-tools auto install
+  * New upstream version 0.3.1
+  * Update copyright
+  * Update VCS fields to salsa
+
+ -- Xavier Guimard <yadd@debian.org>  Mon, 25 May 2020 13:12:25 +0200
+
+node-cssom (0.3.0-1) unstable; urgency=low
+
+  * New upstream release.
+  * Update Standards-Version to 3.9.5 .
+
+ -- Laszlo Boszormenyi (GCS) <gcs@debian.org>  Thu, 05 Dec 2013 14:17:42 +0000
+
+node-cssom (0.2.5-2) unstable; urgency=low
+
+  [ Dafydd Harries <daf@debian.org> ]
+  * Update for upstream move to jake build (closes: #705233).
+
+ -- Laszlo Boszormenyi (GCS) <gcs@debian.org>  Sat, 04 May 2013 17:22:59 +0200
+
+node-cssom (0.2.5-1) unstable; urgency=low
+
+  * New upstream release.
+  * Update Standards-Version to 3.9.4 and debhelper level 9 .
+  * Add docs again, upstream reintroduced README.mdown .
+  * Add myself to uploaders.
+
+  [ Bart Martens <bartm@debian.org> ]
+  * Update watch file.
+
+ -- Laszlo Boszormenyi (GCS) <gcs@debian.hu>  Mon, 25 Feb 2013 15:07:22 +0000
+
+node-cssom (0.2.3-1) unstable; urgency=low
+
+  * New upstream version
+  * Drop docs, since they're not available anymore in the upstream
+    source
+  * Standards-Version bump to 3.9.3, no changes needed
+  * Update debian/copyright
+  * Reworked buildsystem, jake is no more used/needed
+
+ -- David Paleino <dapal@debian.org>  Thu, 22 Mar 2012 21:19:12 +0100
+
+node-cssom (0.2.1-1) unstable; urgency=low
+
+  * New upstream version
+
+ -- David Paleino <dapal@debian.org>  Sat, 31 Dec 2011 11:48:59 +0100
+
+node-cssom (0.2.0-2) unstable; urgency=low
+
+  * Use yui-compressor instead of uglifyjs, which seems broken at
+    today, causing FTBFS (Closes: #652227)
+
+ -- David Paleino <dapal@debian.org>  Fri, 23 Dec 2011 13:37:27 +0100
+
+node-cssom (0.2.0-1) unstable; urgency=low
+
+  * Initial release
+
+ -- David Paleino <dapal@debian.org>  Sat, 29 Oct 2011 17:43:01 +0200

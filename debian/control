@@ -1,0 +1,40 @@
+Source: node-cssom
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders:
+ Laszlo Boszormenyi (GCS) <gcs@debian.org>,
+ David Paleino <dapal@debian.org>
+Section: javascript
+Testsuite: autopkgtest-pkg-nodejs
+Priority: optional
+Build-Depends: debhelper-compat (= 13)
+ , node-jake
+ , pkg-js-tools (>= 0.9.35~)
+Standards-Version: 4.5.1
+Vcs-Browser: https://salsa.debian.org/js-team/node-cssom
+Vcs-Git: https://salsa.debian.org/js-team/node-cssom.git
+Homepage: https://github.com/NV/CSSOM
+Rules-Requires-Root: no
+
+Package: node-cssom
+Architecture: all
+Depends: ${misc:Depends}
+ , nodejs
+Multi-Arch: foreign
+Description: CSS parser written in pure JavaScript - NodeJS module
+ CSSOM.js is a CSS parser written in pure JavaScript. It is also a partial
+ implementation of the CSS Object Model.
+ .
+ This package contains the NodeJS module.
+
+Package: libjs-cssom
+Architecture: all
+Depends:
+ ${misc:Depends}
+Recommends:
+ javascript-common
+Multi-Arch: foreign
+Description: CSS parser written in pure JavaScript
+ CSSOM.js is a CSS parser written in pure JavaScript. It is also a partial
+ implementation of the CSS Object Model.
+ .
+ This package contains the javascript files for web browsers.
